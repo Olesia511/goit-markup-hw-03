@@ -110,6 +110,9 @@ img {
 }
 
 .header-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
