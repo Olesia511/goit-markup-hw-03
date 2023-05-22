@@ -14,7 +14,8 @@ p {
   margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
 }
@@ -72,14 +73,15 @@ img {
 
 .header-frame {
   border-bottom: 1px solid var(--border-header);
- }
+}
 
 .head-item:not(:last-child),
 .contact-item:not(:last-child) {
   margin-right: 40px;
 }
 
-.head-list, .contact-list {
+.head-list,
+.contact-list {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -145,11 +147,8 @@ img {
 
 .footer-bg {
   background-color: var(--color-text-h);
-}
-
-.basement {
-padding-top: 100px; 
-padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -222,7 +221,7 @@ padding-bottom: 100px;
   color: var(--color-text-hero);
   background-color: var(--color-text-button);
   cursor: pointer;
-}   
+}
 
 .hero-btn:is(:hover, :focus) {
   background-color: var(--color-focus-btn);
@@ -230,7 +229,7 @@ padding-bottom: 100px;
 
 /***---------------goal of the company---------------------**/
 
-.company-section { 
+.company-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -241,7 +240,7 @@ padding-bottom: 100px;
 }
 
 .company-item {
-  width calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .company-title {
@@ -262,8 +261,8 @@ padding-bottom: 100px;
 
 /* ------------What are we doing---------- */
 
-.doing-section{
-padding-bottom: 120px;
+.doing-section {
+  padding-bottom: 120px;
 }
 
 .doing-title {
@@ -284,13 +283,12 @@ padding-bottom: 120px;
 /**--------------------------Our Team---------------------**/
 
 .team-section {
-  padding-top: 120px; 
+  padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--color-btn);
 }
 
 .team-title {
- 
   margin-bottom: 72px;
 
   font-size: 36px;
@@ -314,7 +312,7 @@ padding-bottom: 120px;
   background-color: var(--color-text-hero);
 
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-item:not(:last-child) {
@@ -342,14 +340,14 @@ padding-bottom: 120px;
 
 /***-------------------PORTFOLIO---------------------**/
 
-.portfolio-section{
-  padding-top: 96px; 
+.portfolio-section {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
 .filters-list {
   margin-bottom: 72px;
-  justify-content: center; 
+  justify-content: center;
   gap: 24px;
 }
 
@@ -388,7 +386,7 @@ padding-bottom: 120px;
   flex-wrap: wrap;
 }
 
-.portfolio-item{
+.portfolio-item {
   width: calc((100% - 48px) / 3);
 }
 
@@ -396,7 +394,7 @@ padding-bottom: 120px;
   margin-right: 24px;
 }
 
-.portfolio-item:not(:nth-last-child(-n+3)) {
+.portfolio-item:not(:nth-last-child(-n + 3)) {
   margin-bottom: 48px;
 }
 
