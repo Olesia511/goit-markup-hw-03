@@ -112,7 +112,7 @@ img {
 .header-link {
   padding-top: 24px;
   padding-bottom: 24px;
-  
+
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -184,9 +184,6 @@ padding-bottom: 100px;
 
 .hero-frame {
   background-color: var(--color-text-h);
-} 
-
-.hero-section {
   padding-top: 188px;
   padding-bottom: 188px;
 }
